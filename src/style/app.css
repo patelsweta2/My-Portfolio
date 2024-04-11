@@ -1,0 +1,14 @@
+.app {
+  display: grid;
+  grid-template-columns: 3fr 4fr;
+  height: 100vh;
+  .left-container,
+  .right-container {
+    height: 100%;
+    outline: 1px solid red;
+  }
+  .left-container {
+  }
+  .right-container {
+  }
+}
